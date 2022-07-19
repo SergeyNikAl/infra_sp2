@@ -54,7 +54,7 @@ docker-compose up --build -d
 
 Или загрузить готовый image в dockerHub командой:
 ```
-docker run sergeynikal/api_yamdb:v1.1
+docker run sergeynikal/api_yamdb:v1.2
 ```
 
 - Выполнить миграции:
