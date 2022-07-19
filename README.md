@@ -44,7 +44,6 @@ POSTGRES_USER=postgres
 POSTGRES_PASSWORD=password   # укажите свой пароль
 DB_HOST=db
 DB_PORT=5432
-SECRET_KEY = 'your secret key' # укажите секретный ключ
 ```
 
 Если всё успешно, все переменные на местах, запустить командой:
