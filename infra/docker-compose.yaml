@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: ../api_yamdb
+    build: ../api_yamdb/
     restart: always
     volumes:
       - static_value:/app/static/
@@ -35,4 +35,3 @@ services:
 volumes:
   static_value:
   media_value:
-
